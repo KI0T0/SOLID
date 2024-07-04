@@ -72,20 +72,14 @@ public class Main {
 //                5º Exercício - DIP
 
 //        MetodoPagamento cartaoCredito = new CartaoCredito();
-//        SistemaPagamento sistema = new SistemaPagamento(cartaoCredito);
-//        sistema.processarPagamento(100.0);
-//
 //        MetodoPagamento paypal = new PayPal();
-//        sistema = new SistemaPagamento(paypal);
-//        sistema.processarPagamento(50.0);
-
-
-
-
-
-
-
-
+//
+//        realizarPagamento(cartaoCredito, 100.0);
+//        realizarPagamento(paypal, 50.0);
+//    }
+//
+//    public static void realizarPagamento(MetodoPagamento metodoPagamento, double valor) {
+//        metodoPagamento.realizarPagamento(valor);
 
 
 
